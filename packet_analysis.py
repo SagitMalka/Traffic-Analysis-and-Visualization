@@ -132,7 +132,7 @@ def plot_delay_pdf(data_frame, group_name):
 
     # Plot the PDF and the fitted exponential distribution
     ax.step(bin_pdf, pdf_, label='PDF')
-    ax.plot(x, y, label='exponential distribution')
+    ax.plot(x, y, label='exponential distribution', alpha=0.4, color='red')
 
     ax.set_title(group_name)
     ax.set_xlabel('Inter Message Delays (Seconds)')
