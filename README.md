@@ -39,7 +39,7 @@ The script provides the following functionality:
 
 ## Notes
 
-- Ensure that your CSV files have the required format with columns such as 'Time', 'Length', 'Protocol', etc., as needed by the script.
+- Ensure that your CSV files have the required format with columns such as 'Time', 'Length', 'Protocol', etc., as needed by the script. You can get such files using Wireshark, just export as CSV instead of PCAP.
 - The script automatically generates plots based on the available data and file names.
 
 ## License
@@ -48,4 +48,3 @@ This script is provided under the [MIT License](LICENSE).
 
 ---
 
-Feel free to adapt and modify this README to match your specific needs and project context. Make sure to provide clear instructions for users on how to use the script, what data format it expects, and any other relevant information.
