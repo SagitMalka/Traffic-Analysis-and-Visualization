@@ -15,7 +15,7 @@ pip install numpy matplotlib pandas
 
 ## Usage
 
-1. Place your CSV files with packet data in the `csv_files` directory.
+1. Place your CSV files with packet data in the `resourse\csv_files` directory.
 2. Run the script using Python:
 
 ```bash
@@ -30,11 +30,11 @@ The script provides the following functionality:
 - Fit exponential distribution to delay times.
 - Plot Probability Density Function (PDF) of delay times.
 - Generate Complementary Cumulative Distribution Function (CCDF) plots of message size distributions.
-- Save plots in the `plots_png` directory.
+- Save plots in the `res` directory.
 
 ## Configuration
 
-- The script automatically deletes existing PNG files in the `plots_png` directory before generating new plots.
+- The script automatically deletes existing PNG files in the `res` directory before generating new plots.
 - You can customize the behavior by modifying the script variables and functions.
 
 ## Notes
